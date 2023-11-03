@@ -1,0 +1,4 @@
+<form method="post"> {% csrf_token %} <!--보안 코드라고 생각하면 편함-->
+    {{form.as_ul}}
+    <input type="submit" value="전송">
+</form>
